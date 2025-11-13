@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # DevChallenges.io - Simple Feature Section
 
 ![Thumbnail for the Simple Feature Section coding challenge](./thumbnail.jpg)
@@ -96,3 +97,7 @@ We value feedback and are always looking to improve our challenges and platform.
 This challenge is completely free. Please share it with anyone who would find it useful for practice.
 
 **Enjoy building!** 🚀
+=======
+# devchallenge-featureSection
+Creating a simple feature section with html and css, a challenge from devchallenge.io
+>>>>>>> 55bfd53f341920f4eb9427c8c0362cecc49f6779
