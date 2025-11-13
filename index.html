@@ -23,8 +23,10 @@
 
       body {
         height: 100vh;
-        background-color: rgb(4, 4, 23);
+        background-color: rgb(20 26 40);
         background-image: url("resources/Background_image.svg");
+        color: white;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       }
 
       .sec-header{
@@ -35,6 +37,58 @@
         margin: 30px;
         flex-direction: column;
         gap: 15px;
+      }
+
+      .card-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+      }
+
+      .card{
+        margin: 20px;
+        width: min-content;
+        padding: 20px;
+        background-color: rgb(33 41 54);
+        border-radius: 15px;
+        height: 470px;
+      }
+
+      .img-emo{
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
+        background-color: white;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+
+      .cont-h3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        margin-bottom: 15px;
+      }
+      .cont-p{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 15px;
+      }
+
+      .cont-img{
+        display: flex;
+        height: 200px;
+        width: auto;
+        position: relative;
+        top: 15px;
+      }
+      .cont-img img{
+        border-radius: 15px;
       }
 
       .author-info {
@@ -80,8 +134,51 @@
       <p>The blocks & components you need</p>
     </header>
 
-    <div class="card">
+    <div class="card-container">
+      <div class="card-1 card">
+        <div class="img-emo">✋</div>
+        <div class="cont-h3">
+          <h3>Collect Feedback at Multiple TouchPoints</h3>
+        </div>
 
+        <div class="cont-p">
+          <p>Provide a comprehensive <br />understanding of the customer <br />experience.</p>
+        </div>
+
+        <div class="cont-img">
+          <img src="/resources/photo_2@2x.png" alt="the image of a proup of 4 people in a meeting">
+        </div>
+      </div>
+
+      <div class="card-2 card">
+        <div class="img-emo">🥅</div>
+        <div class="cont-h3">
+          <h3>Ask Targeted and Specific Questions</h3>
+        </div>
+
+        <div class="cont-p">
+          <p>Avoid vague or open-ended<br/> questions that may not yield<br /> actionable insights.</p>
+        </div>
+
+        <div class="cont-img">
+          <img src="/resources/photo_1@2x.png" alt="the image of a proup of 3 people in a meeting">
+        </div>
+      </div>
+
+      <div class="card-3 card">
+        <div class="img-emo">💬</div>
+        <div class="cont-h3">
+          <h3>Prioritize and Respond to Feedback</h3>
+        </div>
+
+        <div class="cont-p">
+          <p>Communicate the changes or improvements you've made in responds to their feedback.</p>
+        </div>
+
+        <div class="cont-img">
+          <img src="/resources/photo_3@2x.png" alt="the image of a proup of 3 people in a meeting">
+        </div>
+      </div>
     </div>
 
     <div class="author-info">
