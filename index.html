@@ -91,6 +91,17 @@
         border-radius: 15px;
       }
 
+      .watch{
+        display: none;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        background-color: #6a6f78;
+        padding: 30px;
+        border-radius: 15px;
+        font-size: 15px;
+      }
+
       .author-info {
         font-size: 14px;
         text-align: center;
@@ -101,39 +112,56 @@
       .author-info a {
         text-decoration: none;
       }
+
+      @media (max-width: 1000px) {
+        .card-container{
+          display: flex;
+          width: auto;
+          flex-wrap: wrap;
+        }
+        }
+
+        @media (max-width: 200px) {
+          .watch{
+            display: flex;
+          }
+
+          main{
+            filter: blur(5px);
+          }
+        }
     </style>
   </head>
   <body>
     <!-- 
-     ✋
+    ✋
     
-     🥅
+    🥅
     
-     💬
+    💬
     
-     Quality feedbacks for your SaaS products
+    Quality feedbacks for your SaaS products
     
-     The blocks & components you need
+    The blocks & components you need
     
-     Collect Feedback at Multiple Touchpoints
+    Collect Feedback at Multiple Touchpoints
     
-     Provide a comprehensive understanding of the customer experience.
+    Provide a comprehensive understanding of the customer experience.
     
-     Ask Targeted and Specific Questions
+    Ask Targeted and Specific Questions
     
-     Avoid vague or open-ended questions that may not yield actionable insights.
+    Avoid vague or open-ended questions that may not yield actionable insights.
     
-     Prioritize and Respond to Feedback
+    Prioritize and Respond to Feedback
     
-     Communicate the changes or improvements you've made in response to their feedback.
+    Communicate the changes or improvements you've made in response to their feedback.
     
     -->
-
+        <main>
     <header class="sec-header">
       <h1>Quality feedbacks for <br/> your SaaS products</h1>
       <p>The blocks & components you need</p>
     </header>
-
     <div class="card-container">
       <div class="card-1 card">
         <div class="img-emo">✋</div>
@@ -181,11 +209,17 @@
       </div>
     </div>
 
+
+
     <div class="author-info">
       Coded by <a href="#">Manasseh Owhologbo TODD</a> | Challenge by
       <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
         >devChallenges.io</a
       >.
     </div>
+    </main>
   </body>
+    <div class="watch">
+      <p>Please view website on another device</p>
+    </div>
 </html>
