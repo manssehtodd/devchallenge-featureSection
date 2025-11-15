@@ -15,6 +15,9 @@
 
     <!--You are welcome to delete these styles or modify them in your own stylesheet -->
     <style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Macondo&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Pacifico&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
       * {
         margin: 0;
         padding: 0;
@@ -26,7 +29,7 @@
         background-color: rgb(20 26 40);
         background-image: url("resources/Background_image.svg");
         color: white;
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family:'Outfit', sans-serif;
       }
 
       .sec-header{
@@ -34,9 +37,19 @@
         color: white;
         justify-content: center;
         align-items: center;
-        margin: 30px;
         flex-direction: column;
         gap: 15px;
+      }
+
+      .sec-header h1{
+        margin-top: 30px;
+        padding: 0;
+      }
+
+      .sec-header p {
+        color: #9DA3AE;
+        margin: 0;
+        padding-bottom: 30px;
       }
 
       .card-container{
@@ -58,7 +71,29 @@
         font-size: 23px;
         width: 50px;
         height: 50px;
-        background-color: white;
+        background-color: #FBE5E6;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      .img-emo2{
+        background-color: #FCEED8;
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 15px;
+      }
+      .img-emo3{
+        background-color: #FBE5E6;
+        font-size: 23px;
+        width: 50px;
+        height: 50px;
         border-radius: 100px;
         display: flex;
         justify-content: center;
@@ -71,21 +106,20 @@
         justify-content: center;
         align-items: center;
         font-size: 20px;
-        margin-bottom: 15px;
+        font-weight: 600;
       }
       .cont-p{
         display: flex;
         justify-content: flex-start;
         align-items: flex-start;
         margin-bottom: 15px;
+        font-weight: 400;
       }
 
       .cont-img{
         display: flex;
         height: 200px;
         width: auto;
-        position: relative;
-        top: 15px;
       }
       .cont-img img{
         border-radius: 15px;
@@ -179,7 +213,7 @@
       </div>
 
       <div class="card-2 card">
-        <div class="img-emo">🥅</div>
+        <div class="img-emo2">🥅</div>
         <div class="cont-h3">
           <h3>Ask Targeted and Specific Questions</h3>
         </div>
